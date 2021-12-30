@@ -23,6 +23,7 @@ public class CoursesPage extends Generic {
 		public void teardown()
 		{
 			driver.close();
+			System.out.println("This code is updated by User1");
 		}
 		
 		@BeforeTest()
@@ -33,6 +34,7 @@ public class CoursesPage extends Generic {
 			driver.get(prop.getProperty("newurl"));
 			log.info("Home page successfully opened");
 			//driver.manage().window().maximize();
+		
 		}
 		
 		@Test
@@ -49,6 +51,7 @@ public class CoursesPage extends Generic {
 				Practise p = new Practise(driver);
 				p.Name().sendKeys("Santosh");
 				p.Email().sendKeys("thetechgig@gmail.com");
+				System.out.println("this is updated by User1");
 			
 			
 		}
