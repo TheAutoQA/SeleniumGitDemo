@@ -34,7 +34,7 @@ public class CoursesPage extends Generic {
 			driver.get(prop.getProperty("newurl"));
 			log.info("Home page successfully opened");
 			//driver.manage().window().maximize();
-		
+		System.out.println("This is updated by DemoUser2");
 		}
 		
 		@Test
@@ -52,7 +52,7 @@ public class CoursesPage extends Generic {
 				p.Name().sendKeys("Santosh");
 				p.Email().sendKeys("thetechgig@gmail.com");
 				System.out.println("this is updated by User1");
-			
+			System.out.println("This is added by DemoUser2");
 			
 		}
 		
