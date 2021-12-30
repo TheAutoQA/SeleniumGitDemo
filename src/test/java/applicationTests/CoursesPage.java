@@ -56,6 +56,13 @@ public class CoursesPage extends Generic {
 			
 		}
 		
+			public void addedbyUser1()
+			{
+				System.out.println("This method1 is added by user1");
+				System.out.println("This method2 is added by user1");
+				System.out.println("This method3 is added by user1");
+			}
+		
 		}
 		
 		
