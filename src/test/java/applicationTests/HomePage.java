@@ -85,10 +85,15 @@ public class HomePage extends Generic {
 	{
 		driver.close();
 		log.info("browser closed successfully");
+		
+	System.out.println("Closing browser udpated by User2");
 	
 }
 
-
+public void addUser2()
+{
+	System.out.println("Addding demoUser2");
+}
 	
 	
 }
