@@ -56,6 +56,13 @@ public class CoursesPage extends Generic {
 			
 		}
 		
+		public void developbranchUser1()
+		{
+			System.out.println("This is created by architect of user1");
+			System.out.println("This is for framework");
+		}
+		
+		
 		}
 		
 		

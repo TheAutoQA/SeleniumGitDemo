@@ -95,5 +95,8 @@ public void addUser2()
 	System.out.println("Addding demoUser2");
 }
 	
-	
+	public void developBranch()
+	{
+		System.out.println("Develop branch created by user1");
+	}
 }
